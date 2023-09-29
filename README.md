@@ -2,6 +2,10 @@
 
 Image based on https://hub.docker.com/_/postgres
 
+## Usage
+
+``` docker pull ghcr.io/bytebits9/bun:[?TAG]```
+
 ## Environment Variables
 
 **POSTGRES_SSL**
