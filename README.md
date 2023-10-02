@@ -23,7 +23,3 @@ This optional environment variable can be used to set path certificate file.
 **POSTGRES_KEY_FILE**
 
 This optional environment variable can be used to set path certificate key file.
-
-## License
-
-[MIT](LICENSE.md)
