@@ -1,7 +1,7 @@
 FROM postgres:alpine
 
-LABEL org.opencontainers.image.url="https://github.com/bytebits9/postgres"
-LABEL org.opencontainers.image.source=https://github.com/bytebits9/postgres
+LABEL org.opencontainers.image.url="https://github.com/nulldark/postgres"
+LABEL org.opencontainers.image.source=https://github.com/nulldark/postgres
 LABEL org.opencontainers.image.title="postgres"
 LABEL org.opencontainers.image.base.name="docker.io/library/postgres:alpine"
 LABEL org.opencontainers.image.licenses=MIT
