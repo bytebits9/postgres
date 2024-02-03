@@ -1,9 +1,9 @@
 # Postgres Docker Container Images
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/nulldark/postgres)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/nuldark/postgres)
 
 ## Supported tags and respective Dockerfile links
-- [`16.1`, `latest`](https://github.com/nulldark/postgres/blob/master/16.1/Dockerfile)
+- [`16.1`, `latest`](https://github.com/nuldark/postgres/blob/master/16.1/Dockerfile)
 
 ## Quick reference
 - **Image based on**:   
@@ -13,10 +13,10 @@
   `linux/amd64`, `linux/arm64`
 
 - **Maintained by**:  
-  [nulldark](https://github.com/nulldark)
+  [nuldark](https://github.com/nuldark)
 
 - **Where to file issues**:    
-  [https://github.com/nulldark/postgres/issues](https://github.com/nulldark/postgres/issues?q=)
+  [https://github.com/nuldark/postgres/issues](https://github.com/nuldark/postgres/issues?q=)
 
 ## How to use this image
 
@@ -34,7 +34,7 @@ version: '3.1'
 
 services:
     postgres:
-        image: ghcr.io/nulldark/postgres
+        image: nuldark/postgres:latest
         restart: always
         ports:
             - "5432:5432"

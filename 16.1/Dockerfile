@@ -1,7 +1,6 @@
 FROM alpine:3.19
 
-LABEL org.opencontainers.image.url="https://github.com/nulldark/postgres"
-LABEL org.opencontainers.image.source="https://github.com/nulldark/postgres"
+LABEL org.opencontainers.image.source="https://github.com/nuldark/postgres"
 LABEL org.opencontainers.image.title="postgres"
 LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.19"
 LABEL org.opencontainers.image.licenses=MIT

@@ -9,9 +9,8 @@ POSTGRES_VERSION ?= 16.1
 TAG ?= latest
 PLATFORM ?= linux/amd64
 
-DOCKER_REGISTRY:=ghcr.io
 DOCKER_IMAGE_NAME:=nulldark/postgres
-DOCKER_IMAGE:=$(DOCKER_REGISTRY)/$(DOCKER_IMAGE_NAME):$(TAG)
+DOCKER_IMAGE:=$(DOCKER_IMAGE_NAME):$(TAG)
 
 build:
 	docker buildx build \
