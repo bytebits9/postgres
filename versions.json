@@ -1,11 +1,18 @@
 {
   "include": [
     {
+      "name": "16.2",
+      "os": "ubuntu-latest",
+      "directory": "16.2",
+      "platform": "linux/amd64,linux/arm64",
+      "tags": "nuldark/postgres:16,nuldark/postgres:16.2,nuldark/postgres:latest"
+    },
+    {
       "name": "16.1",
       "os": "ubuntu-latest",
       "directory": "16.1",
       "platform": "linux/amd64,linux/arm64",
-      "tags": "nuldark/postgres:16,nuldark/postgres:16.1,nuldark/postgres:latest"
+      "tags": "nuldark/postgres:16.1"
     }
   ]
 }
