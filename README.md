@@ -1,6 +1,7 @@
 # Postgres Docker Container Images
 
 ## Supported tags and respective Dockerfile links
+- [`16.3`, `16`, `latest`](https://github.com/nuldark/docker-postgres/blob/master/16.3/Dockerfile)
 - [`16.2`, `latest`](https://github.com/nuldark/docker-postgres/blob/master/16.2/Dockerfile)
 - [`16.1`](https://github.com/nuldark/docker-postgres/blob/master/16.1/Dockerfile)
 
