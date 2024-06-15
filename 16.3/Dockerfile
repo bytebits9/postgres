@@ -39,7 +39,7 @@ RUN set -eux; \
           meson; \
     \
       # get sources \
-        git clone --branch=REL_16_2 --depth=1 ${POSTGRES_URL} /usr/src/postgres; \
+        git clone --branch=REL_16_3 --depth=1 ${POSTGRES_URL} /usr/src/postgres; \
         cd /usr/src/postgres; \
     \
       # configure setup \
