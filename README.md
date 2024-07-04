@@ -1,9 +1,9 @@
 # Postgres Docker Container Images
 
 ## Supported tags and respective Dockerfile links
-- [`16.3`, `16`, `latest`](https://github.com/nuldark/docker-postgres/blob/master/16.3/Dockerfile)
-- [`16.2`, `latest`](https://github.com/nuldark/docker-postgres/blob/master/16.2/Dockerfile)
-- [`16.1`](https://github.com/nuldark/docker-postgres/blob/master/16.1/Dockerfile)
+- [`16.3`, `16`, `latest`](https://github.com/nulxrd/docker-postgres/blob/master/16.3/Dockerfile)
+- [`16.2`, `latest`](https://github.com/nulxrd/docker-postgres/blob/master/16.2/Dockerfile)
+- [`16.1`](https://github.com/nulxrd/docker-postgres/blob/master/16.1/Dockerfile)
 
 ## Quick reference
 - **Image based on**:   
@@ -13,10 +13,10 @@
   `linux/amd64`, `linux/arm64`
 
 - **Maintained by**:  
-  [nuldark](https://github.com/nuldark)
+  [nulxrd](https://github.com/nulxrd)
 
 - **Where to file issues**:    
-  [https://github.com/nuldark/docker-postgres/issues](https://github.com/nuldark/docker-postgres/issues?q=)
+  [https://github.com/nulxrd/docker-postgres/issues](https://github.com/nulxrd/docker-postgres/issues?q=)
 
 ## How to use this image
 
@@ -34,7 +34,7 @@ version: '3.1'
 
 services:
     postgres:
-        image: nuldark/postgres:latest
+        image: nulxrd/postgres:latest
         restart: always
         ports:
             - "5432:5432"

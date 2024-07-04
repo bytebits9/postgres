@@ -9,7 +9,7 @@ POSTGRES_VERSION ?= 16.1
 TAG ?= latest
 PLATFORM ?= linux/amd64
 
-DOCKER_IMAGE_NAME:=nuldark/postgres
+DOCKER_IMAGE_NAME:=nulxrd/postgres
 DOCKER_IMAGE:=$(DOCKER_IMAGE_NAME):$(TAG)
 
 build:

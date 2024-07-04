@@ -5,21 +5,21 @@
       "os": "ubuntu-latest",
       "directory": "16.3",
       "platform": "linux/amd64,linux/arm64",
-      "tags": "nuldark/postgres:16.3,nuldark/postgres:16,nuldark/postgres:latest"
+      "tags": "nulxrd/postgres:16.3,nulxrd/postgres:16,nulxrd/postgres:latest"
     },
     {
       "name": "16.2",
       "os": "ubuntu-latest",
       "directory": "16.2",
       "platform": "linux/amd64,linux/arm64",
-      "tags": "nuldark/postgres:16.2"
+      "tags": "nulxrd/postgres:16.2"
     },
     {
       "name": "16.1",
       "os": "ubuntu-latest",
       "directory": "16.1",
       "platform": "linux/amd64,linux/arm64",
-      "tags": "nuldark/postgres:16.1"
+      "tags": "nulxrd/postgres:16.1"
     }
   ]
 }
