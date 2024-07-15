@@ -1,13 +1,8 @@
-# Postgres Docker Container Images
-
-## Supported tags and respective Dockerfile links
-- [`16.3`, `16`, `latest`](https://github.com/nulxrd/docker-postgres/blob/master/16.3/Dockerfile)
-- [`16.2`, `latest`](https://github.com/nulxrd/docker-postgres/blob/master/16.2/Dockerfile)
-- [`16.1`](https://github.com/nulxrd/docker-postgres/blob/master/16.1/Dockerfile)
+# postgres
 
 ## Quick reference
 - **Image based on**:   
-  [alpine:edge](https://hub.docker.com/_/alpine)
+  [alpine](https://hub.docker.com/_/alpine)
 
 - **Supported architectures**:    
   `linux/amd64`, `linux/arm64`
@@ -18,12 +13,16 @@
 - **Where to file issues**:    
   [https://github.com/nulxrd/docker-postgres/issues](https://github.com/nulxrd/docker-postgres/issues?q=)
 
+## Supported tags and respective Dockerfile links
+
+[`All supported tags see here`](https://hub.docker.com/r/nulxrd/postgres/tags)
+
 ## How to use this image
 
 ### start a postgres instance
 
 ```console
-$ docker run --name some-postgres -d postgres
+$ docker run --name postgres -d nulxrd/postgres
 ```
 
 ### ... via [`docker-compose`](https://github.com/docker/compose)
