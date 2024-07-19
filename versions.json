@@ -1,11 +1,11 @@
 {
   "include": [
     {
-      "name": "17-beta1",
+      "name": "17-beta2",
       "os": "ubuntu-latest",
       "directory": "17",
       "platform": "linux/amd64,linux/arm64",
-      "tags": "nulxrd/postgres:17-beta1,nulxrd/postgres:latest"
+      "tags": "nulxrd/postgres:17-beta2,nulxrd/postgres:latest"
     },
     {
       "name": "16.3",

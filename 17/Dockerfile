@@ -5,7 +5,7 @@ LABEL org.opencontainers.image.title="postgres"
 LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.19"
 LABEL org.opencontainers.image.licenses=MIT
 
-ARG POSTGRES_VERSION=17-beta1
+ARG POSTGRES_VERSION=17-beta2
 ARG POSTGRES_URL="https://github.com/postgres/postgres"
 
 ENV PGDATA /var/lib/postgresql/data
