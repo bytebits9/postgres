@@ -7,7 +7,7 @@ LABEL org.opencontainers.image.licenses=MIT
 
 ARG POSTGRES_VERSION=17beta2
 
-ENV PGDATA /var/lib/postgresql/data
+ENV PGDATA=/var/lib/postgresql/data
 
 RUN set -eux; \
     \
