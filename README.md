@@ -8,21 +8,21 @@
   `linux/amd64`, `linux/arm64`
 
 - **Maintained by**:  
-  [nulxrd](https://github.com/nulxrd)
+  [sxbrsky](https://github.com/sxbrsky)
 
 - **Where to file issues**:    
-  [https://github.com/nulxrd/docker-postgres/issues](https://github.com/nulxrd/docker-postgres/issues?q=)
+  [https://github.com/sxbrsky/docker-postgres/issues](https://github.com/sxbrsky/docker-postgres/issues?q=)
 
 ## Supported tags and respective Dockerfile links
 
-[`All supported tags see here`](https://hub.docker.com/r/nulxrd/postgres/tags)
+[`All supported tags see here`](https://hub.docker.com/r/sxbrsky/postgres/tags)
 
 ## How to use this image
 
 ### start a postgres instance
 
 ```console
-$ docker run --name postgres -d nulxrd/postgres
+$ docker run --name postgres -d sxbrsky/postgres
 ```
 
 ### ... via [`docker-compose`](https://github.com/docker/compose)
@@ -33,7 +33,7 @@ version: '3.1'
 
 services:
     postgres:
-        image: nulxrd/postgres:latest
+        image: sxbrsky/postgres:latest
         restart: always
         ports:
             - "5432:5432"
