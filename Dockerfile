@@ -44,7 +44,7 @@ RUN set -eux; \
 		      --extract \
 		      --file postgresql.tar.bz2 \
 		      --directory /usr/src/postgresql \
-		      --strip-components 1 \
+		      --strip-components 1; \
 		\
 		    rm -rf postgresql.tar.bz2; \
         cd /usr/src/postgres; \
