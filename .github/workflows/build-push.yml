@@ -3,7 +3,7 @@ name: Build postgres docker image
 on:
   push:
     tags:
-      - '*.*.*'
+      - '*'
 
 defaults:
   run:
