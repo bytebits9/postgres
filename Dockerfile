@@ -38,7 +38,7 @@ RUN set -eux; \
           meson; \
     \
       # get sources \
-        wget -O postgresql.tar.bz2 "https://ftp.postgresql.org/pub/source/v$POSTGRES_VERSION/$POSTGRES_VERSION.tar.bz2"; \
+        wget -O postgresql.tar.bz2 "https://ftp.postgresql.org/pub/source/v$POSTGRES_VERSION/postgresql-$POSTGRES_VERSION.tar.bz2"; \
         mkdir -p /usr/src/postgres; \
         tar \
 		      --extract \
