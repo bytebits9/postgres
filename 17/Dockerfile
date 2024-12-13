@@ -1,11 +1,16 @@
-FROM alpine:3.19
+FROM alpine:3.21
 
-LABEL org.opencontainers.image.source="https://github.com/sxbrsky/docker-postgres"
-LABEL org.opencontainers.image.title="postgres"
-LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.19"
-LABEL org.opencontainers.image.licenses=MIT
+ARG POSTGRES_VERSION=17.2
 
-ARG POSTGRES_VERSION=17beta2
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
+      org.opencontainers.image.description="Application packaged by sxbrsky" \
+      org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-postgres/tree/master/README.md" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.ref.name="${POSTGRES_VERSION}" \
+      org.opencontainers.image.source="https://github.com/sxbrsky/docker-postgres/tree/master/17" \
+      org.opencontainers.image.title="postgres" \
+      org.opencontainers.image.vendor="sxbrsky" \
+      org.opencontainers.image.version="${POSTGRES_VERSION}"
 
 ENV PGDATA=/var/lib/postgresql/data
 
