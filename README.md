@@ -1,5 +1,3 @@
-# postgres
-
 ## Quick reference
 - **Image based on**:   
   [alpine](https://hub.docker.com/_/alpine)
@@ -13,27 +11,25 @@
 - **Where to file issues**:    
   [https://github.com/sxbrsky/docker-postgres/issues](https://github.com/sxbrsky/docker-postgres/issues?q=)
 
-## Supported tags and respective Dockerfile links
+## Supported tags and respective `Dockerfile` links
 
-[`All supported tags see here`](https://hub.docker.com/r/sxbrsky/postgres/tags)
+- `17.2`, `17`
 
 ## How to use this image
 
 ### start a postgres instance
 
-```console
-$ docker run --name postgres -d sxbrsky/postgres
+```bash
+$ docker run --name postgres -d sxbrsky/postgres:17.2
 ```
 
 ### ... via [`docker-compose`](https://github.com/docker/compose)
 Example `docker-compose.yml` for `postgres`:
 
 ```yaml
-version: '3.1'
-
 services:
     postgres:
-        image: sxbrsky/postgres:latest
+        image: sxbrsky/postgres:17.2
         restart: always
         ports:
             - "5432:5432"
