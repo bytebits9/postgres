@@ -6,10 +6,10 @@
   `linux/amd64`, `linux/arm64`
 
 - **Maintained by**:  
-  [sxbrsky](https://github.com/sxbrsky)
+  [grmvoid](https://github.com/grmvoid)
 
 - **Where to file issues**:    
-  [https://github.com/sxbrsky/docker-postgres/issues](https://github.com/sxbrsky/docker-postgres/issues?q=)
+  [https://github.com/grmvoid/docker-postgres/issues](https://github.com/grmvoid/docker-postgres/issues?q=)
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -20,7 +20,7 @@
 ### start a postgres instance
 
 ```bash
-$ docker run --name postgres -d sxbrsky/postgres:17.2
+$ docker run --name postgres -d grmvoid/postgres:17.2
 ```
 
 ### ... via [`docker-compose`](https://github.com/docker/compose)
@@ -29,7 +29,7 @@ Example `docker-compose.yml` for `postgres`:
 ```yaml
 services:
     postgres:
-        image: sxbrsky/postgres:17.2
+        image: grmvoid/postgres:17.2
         restart: always
         ports:
             - "5432:5432"
