@@ -3,13 +3,13 @@ FROM alpine:3.21
 ARG POSTGRES_VERSION=17.2
 
 LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
-      org.opencontainers.image.description="Application packaged by sxbrsky" \
-      org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-postgres/tree/master/README.md" \
+      org.opencontainers.image.description="Application packaged by grmvoid" \
+      org.opencontainers.image.documentation="https://github.com/grmvoid/docker-postgres/tree/master/README.md" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.ref.name="${POSTGRES_VERSION}" \
-      org.opencontainers.image.source="https://github.com/sxbrsky/docker-postgres/tree/master/17" \
+      org.opencontainers.image.source="https://github.com/grmvoid/docker-postgres/tree/master/17" \
       org.opencontainers.image.title="postgres" \
-      org.opencontainers.image.vendor="sxbrsky" \
+      org.opencontainers.image.vendor="grmvoid" \
       org.opencontainers.image.version="${POSTGRES_VERSION}"
 
 ENV PGDATA=/var/lib/postgresql/data
