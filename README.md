@@ -13,7 +13,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-- `17.2`, `17`
+- [`17.2`, `17`](https://github.com/grmvoid/docker-postgres/blob/master/17/Dockerfile)
 
 ## How to use this image
 
